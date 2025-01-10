@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: purple;
+  margin: 20px 0;
+}
+
+.game-container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #d67c7c;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.word {
+  font-size: 1.5em;
+  letter-spacing: 5px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+select,
+input[type="text"],
+button {
+  font-size: 1em;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+}
+
+select:focus,
+input[type="text"]:focus {
+  border-color: #4caf50;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:active {
+  background-color: #3e8e41;
+}
+
+.guesses {
+  margin: 20px 0;
+}
+
+.guesses p {
+  font-size: 1.1em;
+}
+
+#wrong-guesses {
+  color: #f44336;
+  font-weight: bold;
+}
+
+#remaining-tries {
+  color: red;
+  font-weight: bold;
+}
+
+#message {
+  font-size: 1.2em;
+  margin: 20px 0;
+  font-weight: bold;
+}

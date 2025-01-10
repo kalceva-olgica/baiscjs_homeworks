@@ -1,0 +1,40 @@
+h1 {
+  text-shadow: 0px 5px 5px gray;
+  color: black;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f4f4f9;
+  font-family: "Gill Sans", "Gill Sans MT";
+  background: linear-gradient(skyblue, lightpink);
+}
+
+.container {
+  width: 300px;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.words {
+  font-size: 1.2rem;
+  color: white;
+  min-height: 1.5em;
+  border: 1px solid #940d0d;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #871f1f;
+}
